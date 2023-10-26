@@ -19,7 +19,6 @@ public class Calcu {
         num2= scanner.nextDouble();
         res = num1 +num2;
 
-
     }
 
     public void Resta(double num1, double num2)
