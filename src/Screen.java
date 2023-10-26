@@ -38,5 +38,6 @@ public class Screen {
         mensaje += mensajeHex + "\n";
 
         System.out.println(mensaje);
+        System.out.println("pruebaaaaaaaaaaaaaaaaaaa");
     }
 }
