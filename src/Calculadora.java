@@ -2,14 +2,20 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
-        int opcion;
         System.out.println("Escoja 1 suma");
         System.out.println("Escoja 2 resta");
         System.out.println("Escoja 3 multiplicacion");
         System.out.println("Escoja 4 division");
-        Scanner scanner = new Scanner(System.in);
-        opcion= scanner.nextInt();
 
+        Scanner scanner = new Scanner(System.in);
+        int opcion=0;
+        try {
+            opcion= scanner.nextInt();
+        }catch (Exception e){
+            System.out.println("Error capa 8");
+            main(args);
+            System.exit( 0);
+        }
         switch (opcion) {
             case 1:
                 Calcu suma =new Calcu();

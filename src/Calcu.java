@@ -14,7 +14,7 @@ public class Calcu {
         System.out.println( "Ingrese un numero");
         Scanner scanner = new Scanner(System.in);
         num1= scanner.nextDouble();
-        System.out.println( "Ingrese un segudno numero");
+        System.out.println( "Ingrese un segundo numero");
         Scanner scanner2 = new Scanner(System.in);
         num2= scanner.nextDouble();
         res = num1 +num2;
@@ -26,7 +26,7 @@ public class Calcu {
         System.out.println( "Ingrese un numero");
         Scanner scanner = new Scanner(System.in);
         num1= scanner.nextDouble();
-        System.out.println( "Ingrese un segudno numero");
+        System.out.println( "Ingrese un segundo numero");
         Scanner scanner2 = new Scanner(System.in);
         num2= scanner.nextDouble();
         res = num1-num2;
@@ -39,7 +39,7 @@ public class Calcu {
         System.out.println( "Ingrese un numero");
         Scanner scanner = new Scanner(System.in);
         num1= scanner.nextDouble();
-        System.out.println( "Ingrese un segudno numero");
+        System.out.println( "Ingrese un segundo numero");
         Scanner scanner2 = new Scanner(System.in);
         num2= scanner.nextDouble();
         res = num1*num2;
@@ -51,7 +51,7 @@ public class Calcu {
         System.out.println( "Ingrese un numero");
         Scanner scanner = new Scanner(System.in);
         num1= scanner.nextDouble();
-        System.out.println( "Ingrese un segudno numero");
+        System.out.println( "Ingrese un segundo numero");
         Scanner scanner2 = new Scanner(System.in);
         num2 = scanner.nextDouble();
 
